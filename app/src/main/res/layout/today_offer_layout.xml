@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/changed_recycle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textSize="18sp"
+     android:fontFamily="serif"
+     android:text="Today's Deals"
+     android:padding="5dp"
+     android:layout_margin="10dp"
+     android:textColor="@color/black"/>
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/rv_best_offer"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="10dp"/>
+
+ <TextView
+     android:id="@+id/tv_more_offer"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@color/teal_700"
+     android:textSize="16sp"
+     android:text="for more offers...."
+     android:layout_margin="5dp"
+     />
+
+
+
+</LinearLayout>

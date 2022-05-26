@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/today_item_image"
+        android:layout_width="250dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:layout_height="200dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_today_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="EGP 7275 and under"
+            android:backgroundTint="#c60d20"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/btn_today_item_price"
+            android:text="Top deal"
+            android:textColor="#c60d20" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/country_price"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:text="EGP"/>
+
+        <TextView
+            android:id="@+id/country_price2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/country_price"
+            android:text="177.00"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/today_offer_tv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:padding="2dp"
+        android:textColor="@color/black"
+        android:text="Kitchen basis | offer up to 20%"/>
+
+</LinearLayout>

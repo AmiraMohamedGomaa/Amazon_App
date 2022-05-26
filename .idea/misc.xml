@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/drawable-v24/first_recycle_item_home_page.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/drawable-v24/indicator_selected.xml" value="0.1125" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/drawable-v24/search_background.xml" value="0.1962962962962963" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/drawable/button_shape.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/drawable/button_shape_orange.xml" value="0.2169230769230769" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/app_bar.xml" value="0.1527777777777778" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/best_offer_item_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/best_offer_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/changeditem_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/item_image_slider.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/item_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/today_offer_item_layout.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/today_offer_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/AmazonApp/app/src/main/res/layout/videos_layout.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

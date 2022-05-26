@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" tools:context=".MainActivity">
+
+ <include layout="@layout/app_bar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:padding="5dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:background="#63D1D0"
+                android:text="Please choose a delivery Location"
+                android:layout_centerVertical="true"
+                android:drawableStart="@drawable/ic_baseline_location_on_24"
+               />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/changed_items_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                tools:itemCount="1"/>
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:id="@+id/imageSlider"
+                app:iss_auto_cycle="true"
+                app:iss_delay="0"
+                app:iss_placeholder="@android:color/darker_gray"
+                app:iss_error_image="@android:color/darker_gray"
+                app:iss_corner_radius="5"
+                app:iss_selected_dot="@drawable/default_selected_dot"
+                app:iss_unselected_dot="@drawable/default_unselected_dot"
+                app:iss_period="2000"
+                tools:ignore="MissingConstraints" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/offer_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="-10dp"
+               />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/freedeliver"/>
+
+            <include
+                android:id="@+id/layout_today"
+                layout="@layout/today_offer_layout"/>
+
+
+            <include layout="@layout/videos_layout"/>
+            <include layout="@layout/item_layout"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
